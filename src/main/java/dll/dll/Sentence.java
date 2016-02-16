@@ -14,7 +14,7 @@ public class Sentence {
         index = -1;
     }
     public int getIndex() {
-        System.out.print("Enter number of symbol in the word: ");
+        System.out.print("Enter number of symbol in the word:");
         String tempString = scanner.nextLine();
         if (!tempString.isEmpty())
             index = new Integer(tempString);
